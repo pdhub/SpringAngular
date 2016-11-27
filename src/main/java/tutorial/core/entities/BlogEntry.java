@@ -1,9 +1,11 @@
-package entities;
+package tutorial.core.entities;
 
 /**
  * Created by PDeb on 11/26/2016.
  */
 public class BlogEntry {
+
+    private Long id;
 
     public String getTitle() {
         return title;
@@ -15,4 +17,11 @@ public class BlogEntry {
 
     private String title;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
